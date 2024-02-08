@@ -7,12 +7,12 @@ export default function Projects() {
   return (
     
       <div
-        className="px-28 py-10  flex-col items-center justify-center"
+        className="px-28 py-5 md:py-10  flex-col items-center justify-center"
         id="projects"
       >
-        <div className="py-5 text-center">
+        <div className="py-2 md:py-5 text-center">
           <h2 className="text-gray-600">Browse My Recent</h2>
-          <h1 className="text-5xl font-bold py-3 ">Projects</h1>
+          <h1 className="text-3xl md:text-5xl font-bold py-3 ">Projects</h1>
         </div>
         <div className="flex flex-wrap justify-center gap-10 mt-3">
           <ProjectCard />
