@@ -10,7 +10,7 @@ export default function ProjectCard() {
         <botton className="py-5 md:py-3  px-5 md:px-8 border-2 border-black text-black rounded-3xl md:rounded-full font-bold text-xs md:text-sm mt-5 mr-4 hover:bg-gray-700 hover:text-white">
           Github
         </botton>
-        <botton className="py-5 md:py-3  w-[120px] md:w-0 px-4 md:px-5 border-2 border-black text-black rounded-3xl  md:rounded-full font-bold text-xs md:text-sm mt-5   hover:bg-gray-700 hover:text-white text-center">
+        <botton className="py-5 md:py-3  w-[120px] md:w-auto px-4 md:px-5 border-2 border-black text-black rounded-3xl  md:rounded-full font-bold text-xs md:text-sm mt-5   hover:bg-gray-700 hover:text-white text-center md:text-balance">
           Live Demo
         </botton>
       </div>
