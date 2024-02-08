@@ -3,11 +3,11 @@ import check from "./assets/checkmark.png";
 
 export default function ExpCard({ skills, length, start }) {
   return (
-    <div className="py-8 px-14 border-2 border-black rounded-3xl">
-      <h1 className="font-bold text-3xl   text-center pb-7 text-gray-700">
+    <div className="w-[300px] md:w-auto py-8 px-8 md:px-14 border-2 border-black rounded-3xl">
+      <h1 className="font-bold text-xl md:text-3xl   text-center pb-7 text-gray-700">
         Frontend Development
       </h1>
-      <div className="grid grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10">
         {skills.slice(start, length).map((s, key) => {
           return (
             <div className="flex items-center gap-2">

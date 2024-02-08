@@ -41,7 +41,7 @@ export default function About() {
             </h4>
           </div>
         </div>
-        <Link to="#experience"><img className="w-6 md:w-16 mt-0 md:mt-72  " src={arrow }></img></Link>
+        <Link to="#experience"><img className="w-6 md:w-16 mt-0 md:mt-72  ml-64 md:ml-0" src={arrow }></img></Link>
       </div>
       
     </div>
