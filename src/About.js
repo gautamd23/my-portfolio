@@ -1,18 +1,20 @@
 import React from "react";
 import profile from "./assets/portfolioImg.jpg";
 import exp from "./assets/experience.png";
-import edu from './assets/education.png'
+import edu from './assets/education.png';
+import arrow from './assets/arrow.png';
+import { HashLink as Link } from "react-router-hash-link";
 
 export default function About() {
   return (
-    <div className="px-28 py-10 flex-col  items-center">
+    <div className="px-28 py-10 flex-col flex   items-center" id="about">
       <div className="py-5 text-center">
         <h2 className="text-gray-600">Get to Know More</h2>
         <h1 className="text-5xl font-bold py-3">About Me</h1>
       </div>
-      <div className="flex gap-5 justify-center">
+      <div className="flex  gap-5 justify-center items-center">
         <div className="w-full">
-          <img className="w-[410px] rounded-3xl" src={profile}></img>
+          <img className="w-[380px] rounded-3xl" src={profile}></img>
         </div>
         <div className="w-[50%] ">
           <div className="grid grid-flow-col py-4 pb-8">
@@ -39,7 +41,9 @@ export default function About() {
             </h4>
           </div>
         </div>
+        <Link to="#experience"><img className="w-16 mt-72  " src={arrow }></img></Link>
       </div>
+      
     </div>
   );
 }
