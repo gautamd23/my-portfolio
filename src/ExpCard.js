@@ -4,7 +4,7 @@ import check from "./assets/checkmark.png";
 export default function ExpCard({ skills, length, start }) {
   return (
     <div className="py-8 px-14 border-2 border-black rounded-3xl">
-      <h1 className="font-bold text-3xl  text-gray-700 text-center pb-7 text-gray-700">
+      <h1 className="font-bold text-3xl   text-center pb-7 text-gray-700">
         Frontend Development
       </h1>
       <div className="grid grid-cols-2 gap-10">
